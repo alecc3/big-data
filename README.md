@@ -26,7 +26,7 @@ Test a few of the following queries:
 
 ## About
 
-Queries have been debounced through the frontend (1000ms delay) in case of rate limiting and preventing unnecessary API calls.
+Queries have been debounced through the frontend (1000ms delay) in case of rate limiting (when using 3rd party APIs) and preventing unnecessary API calls. Although this does not technically follow the project specification of 'Update search results with each character entered by the user' I believe this is a best practice. 
 
 The frontend is written in React, and the backend is written in Python & Flask.
 
