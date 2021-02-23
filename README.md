@@ -38,5 +38,7 @@ The '/data' route takes in a query parameter, and retrieves Item Names that cont
 ## Limitations
 
 Queries are case sensitive (normalization is possible with something like Regex)
+
 Albeit optimized through Pyspark, load time scales with the size of the dataset since all data is displayed/retrieved - for extremely large datasets we can use pagination or 'infinite scroll' where we retrieve the data in chunks instead
+
 No CSS (in the interest of time)
